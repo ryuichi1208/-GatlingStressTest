@@ -1,2 +1,2 @@
-# -GatlingStressTest
+# GatlingStressTest
  Stress test environment using Gatling.
