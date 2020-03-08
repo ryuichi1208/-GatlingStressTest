@@ -10,6 +10,11 @@ services:
       - ./gatring/conf:/opt/gatling/conf
       - ./gatring/user-files:/opt/gatling/user-files
       - ./results:/opt/gatling/results
+  httpd:
+    build: ./httpd
+    container_name: httpd
+    ports:
+    - 8443:80
 
 volumes:
   data:
