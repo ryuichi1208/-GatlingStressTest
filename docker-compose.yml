@@ -3,7 +3,7 @@ version: '3.7'
 services:
   gatling:
     image: denvazh/gatling:3.2.1
-    container_name: gatling
+    container_name: gatlingtest
     stdin_open: true
     tty: true
     volumes:
